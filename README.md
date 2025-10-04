@@ -3,11 +3,9 @@
 ## Author
 Tre Davis
 
-##Description:
-The program asks the user for a starting number.vIt then applies the Collatz Conjecture rule repeatedly:
-If the number is even, divide it by 2. If the number is odd, multiply it by 3 and add 1.
-This continues until the number reaches 1. The program also counts the total number of steps taken.
-Output: It prints the entire sequence of numbers followed by the step count.
+##Description Challemge 3:
+Loop type chosen: nested for loops (outer loop for rows, inner loop for columns)  
+Why that loop: A multiplication table is a two-dimensional grid. Nested loops fit well with rows and columns. The outer loop goes through the rows. For each row, the inner loop runs through the columns to produce that row’s products.
 
 ##How to run:
 TreDavis_assignment5.py
